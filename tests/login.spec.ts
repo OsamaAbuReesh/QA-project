@@ -1,8 +1,5 @@
 import { test } from '@playwright/test';
 import { LoginPage } from '../pages/login-page';
-import * as dotenv from 'dotenv';
-
-dotenv.config();
 
 test.describe('Login Feature', () => {
   let loginPage: LoginPage;
